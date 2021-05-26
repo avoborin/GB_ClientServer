@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32269B4A263025FB00311C61 /* AdvancedBackViewProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32269B49263025FB00311C61 /* AdvancedBackViewProperty.swift */; };
+		32BBC4532628762F00AF0B62 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBC4522628762F00AF0B62 /* User.swift */; };
+		32BBC456262876F600AF0B62 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBC455262876F600AF0B62 /* Group.swift */; };
+		32BBC4592628794500AF0B62 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBC4582628794500AF0B62 /* DataStorage.swift */; };
+		32BBC45C26287AC900AF0B62 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBC45B26287AC900AF0B62 /* TabBarController.swift */; };
+		32BBC46326287C8D00AF0B62 /* CreateNewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBC46226287C8D00AF0B62 /* CreateNewUser.swift */; };
+		32BBC466262882A300AF0B62 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBC465262882A300AF0B62 /* FriendsTableViewController.swift */; };
+		32BBC46D2628840F00AF0B62 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBC46B2628840F00AF0B62 /* FriendsTableViewCell.swift */; };
+		32BBC46E2628840F00AF0B62 /* FriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32BBC46C2628840F00AF0B62 /* FriendsTableViewCell.xib */; };
+		32C8B4F7261C44A900BFF26E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C8B4F6261C44A900BFF26E /* AppDelegate.swift */; };
+		32C8B4F9261C44A900BFF26E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C8B4F8261C44A900BFF26E /* SceneDelegate.swift */; };
+		32C8B4FB261C44A900BFF26E /* myVKClientSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C8B4FA261C44A900BFF26E /* myVKClientSignInViewController.swift */; };
+		32C8B4FE261C44A900BFF26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C8B4FC261C44A900BFF26E /* Main.storyboard */; };
+		32C8B500261C44A900BFF26E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C8B4FF261C44A900BFF26E /* Assets.xcassets */; };
+		32C8B503261C44A900BFF26E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C8B501261C44A900BFF26E /* LaunchScreen.storyboard */; };
+		32F705F02629FB5400DC93CF /* MyGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F705EF2629FB5400DC93CF /* MyGroupTableViewController.swift */; };
+		32F81DBA262A0727001AC319 /* AllGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F81DB9262A0727001AC319 /* AllGroupTableViewController.swift */; };
+		32FB80592628D4390040325F /* FotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB80582628D4390040325F /* FotoCollectionViewController.swift */; };
+		32FB805E2628D6D40040325F /* FotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB805C2628D6D40040325F /* FotoCollectionViewCell.swift */; };
+		32FB805F2628D6D40040325F /* FotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FB805D2628D6D40040325F /* FotoCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32269B49263025FB00311C61 /* AdvancedBackViewProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedBackViewProperty.swift; sourceTree = "<group>"; };
+		32BBC4522628762F00AF0B62 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		32BBC455262876F600AF0B62 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		32BBC4582628794500AF0B62 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		32BBC45B26287AC900AF0B62 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		32BBC46226287C8D00AF0B62 /* CreateNewUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewUser.swift; sourceTree = "<group>"; };
+		32BBC465262882A300AF0B62 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		32BBC46B2628840F00AF0B62 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		32BBC46C2628840F00AF0B62 /* FriendsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsTableViewCell.xib; sourceTree = "<group>"; };
+		32C8B4F3261C44A900BFF26E /* UILesson01HT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILesson01HT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C8B4F6261C44A900BFF26E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32C8B4F8261C44A900BFF26E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32C8B4FA261C44A900BFF26E /* myVKClientSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myVKClientSignInViewController.swift; sourceTree = "<group>"; };
+		32C8B4FD261C44A900BFF26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32C8B4FF261C44A900BFF26E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32C8B502261C44A900BFF26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32C8B504261C44A900BFF26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F705EF2629FB5400DC93CF /* MyGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupTableViewController.swift; sourceTree = "<group>"; };
+		32F81DB9262A0727001AC319 /* AllGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupTableViewController.swift; sourceTree = "<group>"; };
+		32FB80582628D4390040325F /* FotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoCollectionViewController.swift; sourceTree = "<group>"; };
+		32FB805C2628D6D40040325F /* FotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		32FB805D2628D6D40040325F /* FotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FotoCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32C8B4F0261C44A900BFF26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32BBC4512628760100AF0B62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32BBC4522628762F00AF0B62 /* User.swift */,
+				32BBC455262876F600AF0B62 /* Group.swift */,
+				32BBC4582628794500AF0B62 /* DataStorage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32BBC4682628836600AF0B62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32F81DB8262A0703001AC319 /* AllGroupTableViewController */,
+				32F705F22629FBD100DC93CF /* MyGroupTableViewController */,
+				32FB80532628D33A0040325F /* FotoCollectionViewController */,
+				32BBC4692628837500AF0B62 /* FriendsTableViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		32BBC4692628837500AF0B62 /* FriendsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				32BBC46A2628838700AF0B62 /* cells */,
+				32BBC465262882A300AF0B62 /* FriendsTableViewController.swift */,
+			);
+			path = FriendsTableViewController;
+			sourceTree = "<group>";
+		};
+		32BBC46A2628838700AF0B62 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				32BBC46B2628840F00AF0B62 /* FriendsTableViewCell.swift */,
+				32BBC46C2628840F00AF0B62 /* FriendsTableViewCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		32C8B4EA261C44A900BFF26E = {
+			isa = PBXGroup;
+			children = (
+				32C8B4F5261C44A900BFF26E /* UILesson01HT */,
+				32C8B4F4261C44A900BFF26E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32C8B4F4261C44A900BFF26E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32C8B4F3261C44A900BFF26E /* UILesson01HT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C8B4F5261C44A900BFF26E /* UILesson01HT */ = {
+			isa = PBXGroup;
+			children = (
+				32BBC4682628836600AF0B62 /* Controllers */,
+				32BBC4512628760100AF0B62 /* Model */,
+				32C8B4F6261C44A900BFF26E /* AppDelegate.swift */,
+				32C8B4F8261C44A900BFF26E /* SceneDelegate.swift */,
+				32C8B4FA261C44A900BFF26E /* myVKClientSignInViewController.swift */,
+				32C8B4FC261C44A900BFF26E /* Main.storyboard */,
+				32C8B4FF261C44A900BFF26E /* Assets.xcassets */,
+				32C8B501261C44A900BFF26E /* LaunchScreen.storyboard */,
+				32C8B504261C44A900BFF26E /* Info.plist */,
+				32BBC45B26287AC900AF0B62 /* TabBarController.swift */,
+				32BBC46226287C8D00AF0B62 /* CreateNewUser.swift */,
+				32269B49263025FB00311C61 /* AdvancedBackViewProperty.swift */,
+			);
+			path = UILesson01HT;
+			sourceTree = "<group>";
+		};
+		32F705F22629FBD100DC93CF /* MyGroupTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				32F705EF2629FB5400DC93CF /* MyGroupTableViewController.swift */,
+			);
+			path = MyGroupTableViewController;
+			sourceTree = "<group>";
+		};
+		32F81DB8262A0703001AC319 /* AllGroupTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				32F81DB9262A0727001AC319 /* AllGroupTableViewController.swift */,
+			);
+			path = AllGroupTableViewController;
+			sourceTree = "<group>";
+		};
+		32FB80532628D33A0040325F /* FotoCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				32FB805B2628D6B10040325F /* cells */,
+				32FB80582628D4390040325F /* FotoCollectionViewController.swift */,
+			);
+			path = FotoCollectionViewController;
+			sourceTree = "<group>";
+		};
+		32FB805B2628D6B10040325F /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				32FB805C2628D6D40040325F /* FotoCollectionViewCell.swift */,
+				32FB805D2628D6D40040325F /* FotoCollectionViewCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32C8B4F2261C44A900BFF26E /* UILesson01HT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C8B507261C44A900BFF26E /* Build configuration list for PBXNativeTarget "UILesson01HT" */;
+			buildPhases = (
+				32C8B4EF261C44A900BFF26E /* Sources */,
+				32C8B4F0261C44A900BFF26E /* Frameworks */,
+				32C8B4F1261C44A900BFF26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UILesson01HT;
+			productName = UILesson01HT;
+			productReference = 32C8B4F3261C44A900BFF26E /* UILesson01HT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32C8B4EB261C44A900BFF26E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					32C8B4F2261C44A900BFF26E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 32C8B4EE261C44A900BFF26E /* Build configuration list for PBXProject "UILesson01HT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32C8B4EA261C44A900BFF26E;
+			productRefGroup = 32C8B4F4261C44A900BFF26E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32C8B4F2261C44A900BFF26E /* UILesson01HT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32C8B4F1261C44A900BFF26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C8B503261C44A900BFF26E /* LaunchScreen.storyboard in Resources */,
+				32C8B500261C44A900BFF26E /* Assets.xcassets in Resources */,
+				32C8B4FE261C44A900BFF26E /* Main.storyboard in Resources */,
+				32FB805F2628D6D40040325F /* FotoCollectionViewCell.xib in Resources */,
+				32BBC46E2628840F00AF0B62 /* FriendsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C8B4EF261C44A900BFF26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BBC4532628762F00AF0B62 /* User.swift in Sources */,
+				32C8B4FB261C44A900BFF26E /* myVKClientSignInViewController.swift in Sources */,
+				32BBC466262882A300AF0B62 /* FriendsTableViewController.swift in Sources */,
+				32BBC46D2628840F00AF0B62 /* FriendsTableViewCell.swift in Sources */,
+				32C8B4F7261C44A900BFF26E /* AppDelegate.swift in Sources */,
+				32F705F02629FB5400DC93CF /* MyGroupTableViewController.swift in Sources */,
+				32269B4A263025FB00311C61 /* AdvancedBackViewProperty.swift in Sources */,
+				32BBC46326287C8D00AF0B62 /* CreateNewUser.swift in Sources */,
+				32FB805E2628D6D40040325F /* FotoCollectionViewCell.swift in Sources */,
+				32BBC4592628794500AF0B62 /* DataStorage.swift in Sources */,
+				32FB80592628D4390040325F /* FotoCollectionViewController.swift in Sources */,
+				32BBC45C26287AC900AF0B62 /* TabBarController.swift in Sources */,
+				32BBC456262876F600AF0B62 /* Group.swift in Sources */,
+				32C8B4F9261C44A900BFF26E /* SceneDelegate.swift in Sources */,
+				32F81DBA262A0727001AC319 /* AllGroupTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32C8B4FC261C44A900BFF26E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C8B4FD261C44A900BFF26E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32C8B501261C44A900BFF26E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C8B502261C44A900BFF26E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32C8B505261C44A900BFF26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32C8B506261C44A900BFF26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32C8B508261C44A900BFF26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UILesson01HT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tre.UILesson01HT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32C8B509261C44A900BFF26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UILesson01HT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tre.UILesson01HT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32C8B4EE261C44A900BFF26E /* Build configuration list for PBXProject "UILesson01HT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C8B505261C44A900BFF26E /* Debug */,
+				32C8B506261C44A900BFF26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C8B507261C44A900BFF26E /* Build configuration list for PBXNativeTarget "UILesson01HT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C8B508261C44A900BFF26E /* Debug */,
+				32C8B509261C44A900BFF26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32C8B4EB261C44A900BFF26E /* Project object */;
+}

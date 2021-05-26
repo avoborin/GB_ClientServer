@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FotoCollectionViewCell" customModule="UILesson01HT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="372"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="372"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZgS-1f-F04">
+                        <rect key="frame" x="0.0" y="0.0" width="314" height="372"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mak-Y8-4wn">
+                                <rect key="frame" x="0.0" y="0.0" width="314" height="314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mak-Y8-4wn" secondAttribute="height" multiplier="1:1" id="GSI-0K-dqf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gho-sw-3Ni">
+                                <rect key="frame" x="10" y="324" width="38" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Gho-sw-3Ni" secondAttribute="height" multiplier="1:1" id="yPE-tO-RFw"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" image="heart" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="light"/>
+                                </state>
+                                <state key="selected">
+                                    <imageReference key="image" image="heart.fill" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressLikeButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="WUX-25-eVe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abh-Uf-Jx5">
+                                <rect key="frame" x="53" y="333" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gho-sw-3Ni" firstAttribute="leading" secondItem="ZgS-1f-F04" secondAttribute="leading" constant="10" id="Abf-Sa-zqF"/>
+                            <constraint firstItem="mak-Y8-4wn" firstAttribute="top" secondItem="ZgS-1f-F04" secondAttribute="top" id="DXZ-g6-jJv"/>
+                            <constraint firstItem="abh-Uf-Jx5" firstAttribute="leading" secondItem="Gho-sw-3Ni" secondAttribute="trailing" constant="5" id="Eza-EM-fvp"/>
+                            <constraint firstAttribute="bottom" secondItem="abh-Uf-Jx5" secondAttribute="bottom" constant="18" id="MvR-ha-ACY"/>
+                            <constraint firstAttribute="bottom" secondItem="Gho-sw-3Ni" secondAttribute="bottom" constant="10" id="ZZs-sq-P0N"/>
+                            <constraint firstAttribute="trailing" secondItem="mak-Y8-4wn" secondAttribute="trailing" id="jyo-Gf-QQe"/>
+                            <constraint firstItem="Gho-sw-3Ni" firstAttribute="top" secondItem="mak-Y8-4wn" secondAttribute="bottom" constant="10" id="q3x-VW-IEi"/>
+                            <constraint firstItem="abh-Uf-Jx5" firstAttribute="top" secondItem="mak-Y8-4wn" secondAttribute="bottom" constant="19" id="rat-5c-WOY"/>
+                            <constraint firstItem="mak-Y8-4wn" firstAttribute="leading" secondItem="ZgS-1f-F04" secondAttribute="leading" id="wTv-9Y-FQp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="ZgS-1f-F04" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="JfL-mG-kbD"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="ZgS-1f-F04" secondAttribute="trailing" id="akq-rb-Whg"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="ZgS-1f-F04" secondAttribute="bottom" id="l1K-cM-HqQ"/>
+                <constraint firstItem="ZgS-1f-F04" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vMV-mi-PTz"/>
+            </constraints>
+            <size key="customSize" width="314" height="372"/>
+            <connections>
+                <outlet property="cellBack" destination="ZgS-1f-F04" id="dTX-RD-Vfl"/>
+                <outlet property="fotoImage" destination="mak-Y8-4wn" id="5Wd-15-5K8"/>
+                <outlet property="likeButton" destination="Gho-sw-3Ni" id="PQC-Kh-S0B"/>
+                <outlet property="likeCountTitle" destination="abh-Uf-Jx5" id="9eG-WM-7rg"/>
+            </connections>
+            <point key="canvasLocation" x="305.79710144927537" y="102.45535714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+    </resources>
+</document>
