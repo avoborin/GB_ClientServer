@@ -16,6 +16,7 @@
 		32BBC466262882A300AF0B62 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBC465262882A300AF0B62 /* FriendsTableViewController.swift */; };
 		32BBC46D2628840F00AF0B62 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBC46B2628840F00AF0B62 /* FriendsTableViewCell.swift */; };
 		32BBC46E2628840F00AF0B62 /* FriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32BBC46C2628840F00AF0B62 /* FriendsTableViewCell.xib */; };
+		32C0A4E0265E74C50075D812 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0A4DF265E74C50075D812 /* Session.swift */; };
 		32C8B4F7261C44A900BFF26E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C8B4F6261C44A900BFF26E /* AppDelegate.swift */; };
 		32C8B4F9261C44A900BFF26E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C8B4F8261C44A900BFF26E /* SceneDelegate.swift */; };
 		32C8B4FB261C44A900BFF26E /* myVKClientSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C8B4FA261C44A900BFF26E /* myVKClientSignInViewController.swift */; };
@@ -39,6 +40,7 @@
 		32BBC465262882A300AF0B62 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
 		32BBC46B2628840F00AF0B62 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
 		32BBC46C2628840F00AF0B62 /* FriendsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsTableViewCell.xib; sourceTree = "<group>"; };
+		32C0A4DF265E74C50075D812 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		32C8B4F3261C44A900BFF26E /* UILesson01HT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILesson01HT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C8B4F6261C44A900BFF26E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32C8B4F8261C44A900BFF26E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				32BBC4522628762F00AF0B62 /* User.swift */,
 				32BBC455262876F600AF0B62 /* Group.swift */,
 				32BBC4582628794500AF0B62 /* DataStorage.swift */,
+				32C0A4E1265E74CD0075D812 /* CSLesson01 */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -102,6 +105,14 @@
 				32BBC46C2628840F00AF0B62 /* FriendsTableViewCell.xib */,
 			);
 			path = cells;
+			sourceTree = "<group>";
+		};
+		32C0A4E1265E74CD0075D812 /* CSLesson01 */ = {
+			isa = PBXGroup;
+			children = (
+				32C0A4DF265E74C50075D812 /* Session.swift */,
+			);
+			path = CSLesson01;
 			sourceTree = "<group>";
 		};
 		32C8B4EA261C44A900BFF26E = {
@@ -257,6 +268,7 @@
 				32BBC4592628794500AF0B62 /* DataStorage.swift in Sources */,
 				32FB80592628D4390040325F /* FotoCollectionViewController.swift in Sources */,
 				32BBC45C26287AC900AF0B62 /* TabBarController.swift in Sources */,
+				32C0A4E0265E74C50075D812 /* Session.swift in Sources */,
 				32BBC456262876F600AF0B62 /* Group.swift in Sources */,
 				32C8B4F9261C44A900BFF26E /* SceneDelegate.swift in Sources */,
 				32F81DBA262A0727001AC319 /* AllGroupTableViewController.swift in Sources */,
